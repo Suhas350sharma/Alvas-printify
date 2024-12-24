@@ -17,7 +17,6 @@ const PrinterButton=()=>{
   function togglePanel(){
     setIsPanelVisible(!isPanelVisible);
 
-    
   }
   return (
     <div className="relative h-screen bg-gray-100 flex items-center justify-center">
