@@ -6,7 +6,8 @@ import { Signup } from './componets/Signup'
 
 import { HomePage } from './componets/Home2'
 import { AlteringFiles } from './componets/alteringfiles'
-import { FileUpload } from './componets/fileupload'
+import { FileUploading } from './componets/uploadingfile/uploadingfile'
+
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     //      <Route path='/signup'element={<Signup/>}/>
     //    </Routes>
     // </BrowserRouter>
-   <FileUpload/>
+   <FileUploading/>
   )
 }
 
