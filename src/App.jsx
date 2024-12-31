@@ -10,6 +10,7 @@ import { FileUploading } from './componets/uploadingfile/uploadingfile'
 
 
 
+
 function App() {
 
   return (
@@ -19,7 +20,10 @@ function App() {
     //      <Route path='/signup'element={<Signup/>}/>
     //    </Routes>
     // </BrowserRouter>
-   <FileUploading/>
+  //  <FileUploading/>
+  <FileUploading/>
+
+ 
   )
 }
 
